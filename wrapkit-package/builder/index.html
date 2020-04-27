@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Wrapkit - The awesome and beautiful ui kit</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Common style CSS -->
+    <link href="../wrapkit/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-85622565-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Wrapkit Builder</p>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="builder-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <div class="builder-topbar bg-white">
+            <div class="header">
+                <div class="builder-topbar-container po-relative">
+                    <nav class="d-flex flex-column text-center py-5">
+                        <div>
+                            <img src="../assets/images/logos/logo-builder.png" alt="wrapkit builder"/>
+                        </div>
+                        <div class="py-5">
+                            <img src="../assets/images/builder/head-text.jpg" class="head-text" alt="wrapkit builder"/>
+                        </div>
+                        <div>
+                            <a href="https://wrappixel.com/templates/wrapkit-builder/" class="btn btn-success px-3 font-14">Buy Now</a>
+                            <a href="https://wrappixel.com/demos/ui-kit/wrapkit-builder/demo-builder/" target="_blank" class="btn btn-outline-secondary px-3 font-14">Try Now</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <div class="builder-page-wrapper px-3 bg-light">
+            <div class="builder-page-container">
+                <div class="row">
+                    <div class="col-md-6 box px-3 py-5 border-right text-center">
+                        <h3 class="text-uppercase mb-4"><span class="font-light">Create From</span><br><span class="font-bold">Ready Made Demos</span></h3>
+                        <a href="#" data-toggle="modal" data-target="#demo-video" data-theVideo="https://www.youtube.com/embed/yc2-P6gdSQ8"><img src="../assets/images/builder/1.jpg" class="img-fluid rounded" alt="wrapkit" /></a>
+                        <div class="modal fade" id="demo-video">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Builder with pre-built demos</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body" id="yt-player">
+                                        <iframe width="100%" height="350" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <a href="https://wrappixel.com/demos/ui-kit/wrapkit-builder/demo-builder/" target="_blank" class="btn btn-outline-secondary px-5 font-14">Try Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 box px-3 py-5 text-center">
+                        <h3 class="text-uppercase mb-4"><span class="font-light">Create from</span><br><span class="font-bold">Drag & Drop Sections</span></h3>
+                        <a href="#" data-toggle="modal" data-target="#presets-video" data-theVideo="https://www.youtube.com/embed/HOe8YhEMhVw"><img src="../assets/images/builder/2.jpg" class="img-fluid rounded" alt="wrapkit" /></a>
+                        <div class="modal fade" id="presets-video">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Builder with pre-built presets</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body" id="yt-player">
+                                        <iframe width="100%" height="350" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <a href="https://wrappixel.com/demos/ui-kit/wrapkit-builder/presets-builder/" target="_blank" class="btn btn-outline-secondary px-5 font-14">Try Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-white text-center py-4">
+            All Rights Reserved by WrapKit Builder. Product of WrapPixel.com
+        </footer>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="../assets/node_modules/popper/dist/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function autoPlayYouTubeModal(){
+            var trigger = $("body").find('[data-toggle="modal"]');
+            trigger.click(function() {
+                var theModal = $(this).data( "target" ),
+                videoSRC = $(this).attr( "data-theVideo" ), 
+                videoSRCauto = videoSRC+"?autoplay=1" ;
+                $(theModal+' iframe').attr('src', videoSRCauto);
+                $(theModal+' button.close').click(function () {
+                    $(theModal+' iframe').attr('src', videoSRC);
+                });   
+            });
+        }
+        $(function () {
+            $(".preloader").fadeOut();
+            autoPlayYouTubeModal();
+        });
+    </script>
+</body>
+
+</html>
